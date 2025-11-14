@@ -450,11 +450,6 @@ document.addEventListener('DOMContentLoaded', () => {
         text.textContent = card.text;
         cardElement.appendChild(text);
 
-        const rarityText = document.createElement('p');
-        rarityText.classList.add('card-rarity');
-        rarityText.textContent = card.rarity;
-        cardElement.appendChild(rarityText);
-
         cardContainer.appendChild(cardElement);
 
         const quantityControls = document.createElement('div');

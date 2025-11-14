@@ -281,7 +281,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     column-gap: 1.5rem;
-    row-gap: 10rem;
+    row-gap: 2rem;
 }
 
 .card-container {
@@ -293,7 +293,7 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     transition: all 0.2s ease-in-out;
-    height: 100%; /* Ensure cards in a row are same height */
+    height: 80%; /* Ensure cards in a row are same height */
     position: relative; /* For tooltip positioning */
 }
 
@@ -318,6 +318,7 @@ body {
 }
 
 .card-image {
+    max-height: 225px;
     width: 100%;
     border-radius: 0.5rem;
     margin-bottom: 0.5rem;
