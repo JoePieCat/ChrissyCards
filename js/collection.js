@@ -1120,27 +1120,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     saveOnsiteBtn.addEventListener('click', () => {
         gtag('event', 'save_button_click');
-        const dbRequest = indexedDB.open('ChrissyCardsDB', 2);
-        dbRequest.onupgradeneeded = (event) => {
-            const db = event.target.result;
-            if (!db.objectStoreNames.contains('collections')) {
-                db.createObjectStore('collections', { keyPath: 'id' });
-            }
-        };
-        dbRequest.onsuccess = (event) => {
-            const db = event.target.result;
-            const transaction = db.transaction(['collections'], 'readwrite');
-            const store = transaction.objectStore('collections');
+        try {
             const quantities = cardData.map(c => c.quantity);
-            store.put({ id: 'userCollectionQuantities', data: quantities });
-            transaction.oncomplete = () => {
-                showPopup('<h2>Collection Saved!</h2><p>Your collection has been saved locally.</p>');
-            };
-        };
-        dbRequest.onerror = (event) => {
-            console.error('IndexedDB error:', event.target.errorCode);
+            localStorage.setItem('userCollectionQuantities', JSON.stringify(quantities));
+            showPopup('<h2>Collection Saved!</h2><p>Your collection has been saved locally.</p>');
+        } catch (error) {
+            console.error('localStorage save error:', error);
             showPopup('<h2>Save Failed</h2><p>Could not save the collection. See console for details.</p>');
-        };
+        }
     });
 
     downloadBtn.addEventListener('click', () => {
