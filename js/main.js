@@ -66,40 +66,18 @@ document.addEventListener('DOMContentLoaded', () => {
     // 1. Load Saved Collection
     loadCollectionBtn.addEventListener('click', () => {
         gtag('event', 'load_collection');
-        const request = indexedDB.open('ChrissyCardsDB', 2);
-
-        request.onupgradeneeded = (event) => {
-            const db = event.target.result;
-            if (!db.objectStoreNames.contains('collections')) {
-                db.createObjectStore('collections', { keyPath: 'id' });
+        try {
+            const savedQuantities = localStorage.getItem('userCollectionQuantities');
+            if (savedQuantities) {
+                sessionStorage.setItem('collectionQuantities', savedQuantities);
+                window.location.href = 'collection.html';
+            } else {
+                showPopup('No local collection found');
             }
-        };
-
-        request.onsuccess = (event) => {
-            const db = event.target.result;
-            const transaction = db.transaction(['collections'], 'readonly');
-            const objectStore = transaction.objectStore('collections');
-            const getRequest = objectStore.get('userCollectionQuantities');
-
-            getRequest.onsuccess = () => {
-                if (getRequest.result && getRequest.result.data) {
-                    sessionStorage.setItem('collectionQuantities', JSON.stringify(getRequest.result.data));
-                    window.location.href = 'collection.html';
-                } else {
-                    showPopup('No local collection found');
-                }
-            };
-
-            getRequest.onerror = (err) => {
-                console.error("Error fetching from IndexedDB:", err);
-                showPopup('Error checking for a local collection.');
-            };
-        };
-
-        request.onerror = (event) => {
-            console.error("IndexedDB error:", event.target.errorCode);
+        } catch (error) {
+            console.error("Error accessing localStorage:", error);
             showPopup('Could not access local storage.');
-        };
+        }
     });
 
     // 2. Upload Collection File
@@ -140,65 +118,31 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Start New Collection
     newCollectionBtn.addEventListener('click', () => {
         gtag('event', 'new_collection');
-        const request = indexedDB.open('ChrissyCardsDB', 2);
-
-        request.onsuccess = (event) => {
-            const db = event.target.result;
-            const transaction = db.transaction(['collections'], 'readonly');
-            const objectStore = transaction.objectStore('collections');
-            const getRequest = objectStore.get('userCollectionQuantities');
-
-            getRequest.onsuccess = () => {
-                if (getRequest.result && getRequest.result.data) {
-                    showPopup(
-                        "Are you sure you want to start a new collection? This will overwrite a previously saved collection on your machine!",
-                        true,
-                        proceedWithNewCollection,
-                        () => {}
-                    );
-                } else {
-                    proceedWithNewCollection();
-                }
-            };
-
-            getRequest.onerror = (err) => {
-                console.error("Error fetching from IndexedDB:", err);
+        try {
+            const savedQuantities = localStorage.getItem('userCollectionQuantities');
+            if (savedQuantities) {
+                showPopup(
+                    "Are you sure you want to start a new collection? This will overwrite a previously saved collection on your machine!",
+                    true,
+                    proceedWithNewCollection,
+                    () => {}
+                );
+            } else {
                 proceedWithNewCollection();
-            };
-        };
-
-        request.onerror = (event) => {
-            console.error("IndexedDB error:", event.target.errorCode);
-            proceedWithNewCollection();
-        };
+            }
+        } catch (error) {
+            console.error("Error accessing localStorage:", error);
+            proceedWithNewCollection(); // Proceed even if storage access fails
+        }
     });
 
     function proceedWithNewCollection() {
-        sessionStorage.removeItem('collectionQuantities');
-        const request = indexedDB.open('ChrissyCardsDB', 2);
-
-        request.onsuccess = (event) => {
-            const db = event.target.result;
-            if (db.objectStoreNames.contains('collections')) {
-                const transaction = db.transaction(['collections'], 'readwrite');
-                const objectStore = transaction.objectStore('collections');
-                const clearRequest = objectStore.clear();
-
-                clearRequest.onsuccess = () => {
-                    window.location.href = 'collection.html';
-                };
-                clearRequest.onerror = (err) => {
-                    console.error("Error clearing IndexedDB:", err);
-                    window.location.href = 'collection.html';
-                };
-            } else {
-                window.location.href = 'collection.html';
-            }
-        };
-
-        request.onerror = () => {
-            // If DB access fails, still proceed to the collection page
-            window.location.href = 'collection.html';
-        };
+        try {
+            sessionStorage.removeItem('collectionQuantities');
+            localStorage.removeItem('userCollectionQuantities');
+        } catch (error) {
+            console.error("Error clearing storage:", error);
+        }
+        window.location.href = 'collection.html';
     }
 });
