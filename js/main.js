@@ -65,6 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. Load Saved Collection
     loadCollectionBtn.addEventListener('click', () => {
+        gtag('event', 'load_collection');
         const request = indexedDB.open('ChrissyCardsDB', 2);
 
         request.onupgradeneeded = (event) => {
@@ -103,6 +104,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 2. Upload Collection File
     uploadCollectionBtn.addEventListener('click', () => {
+        gtag('event', 'upload_collection');
         fileUploader.click();
     });
 
@@ -137,6 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. Start New Collection
     newCollectionBtn.addEventListener('click', () => {
+        gtag('event', 'new_collection');
         const request = indexedDB.open('ChrissyCardsDB', 2);
 
         request.onsuccess = (event) => {

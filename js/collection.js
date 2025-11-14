@@ -49,6 +49,12 @@ const showPopup = (content, buttons = [{ text: 'OK' }], popupId = null) => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    const homeBtn = document.querySelector('.home-btn');
+    homeBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        gtag('event', 'home_button_click');
+        window.location.href = 'index.html';
+    });
     const cardGrid = document.getElementById('card-grid');
     const mainProgressBar = document.querySelector('#main-progress-container .progress-bar');
     const progressSegmentsContainer = document.querySelector('#main-progress-container .progress-segments-container');
@@ -476,6 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isInteractive) {
             minusBtn.addEventListener('click', () => {
                 if (card.quantity > 0) {
+                    gtag('event', 'quantity_minus');
                     card.quantity--;
                     quantityValue.textContent = card.quantity;
                     const quantities = cardData.map(c => c.quantity);
@@ -490,6 +497,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             plusBtn.addEventListener('click', () => {
+                gtag('event', 'quantity_plus');
                 const wasUnowned = card.quantity === 0;
                 card.quantity++;
                 quantityValue.textContent = card.quantity;
@@ -513,6 +521,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const showExtrasPopup = () => {
+        gtag('event', 'extras_button_click');
         // Last sampled on November 13th 2025 - 3pm
         const TOTAL = 1106; // Total cards sampled
         const rarityPercentages = {
@@ -1115,6 +1124,7 @@ document.addEventListener('DOMContentLoaded', () => {
     extrasBtn.addEventListener('click', showExtrasPopup);
 
     saveOnsiteBtn.addEventListener('click', () => {
+        gtag('event', 'save_button_click');
         const dbRequest = indexedDB.open('ChrissyCardsDB', 2);
         dbRequest.onupgradeneeded = (event) => {
             const db = event.target.result;
@@ -1139,6 +1149,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     downloadBtn.addEventListener('click', () => {
+        gtag('event', 'download_button_click');
         const quantities = cardData.map(c => c.quantity);
         const dataStr = JSON.stringify(quantities, null, 2);
         const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
@@ -1158,6 +1169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const showMissingCheck = document.getElementById('show-missing-check');
 
     const performSearch = () => {
+        gtag('event', 'filter_change');
         checkFilters();
         const searchTerm = searchBar.value.toLowerCase();
         const searchByTitle = searchByTitleCheck.checked;
@@ -1211,6 +1223,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const resetFilters = () => {
+        gtag('event', 'reset_filters');
         // Reset grouping
         groupByMode.value = 'rarity';
         toggleSwitch.querySelector('.switch-option[data-group="sets"]').classList.remove('active');
@@ -1415,6 +1428,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sidebarToggle = document.getElementById('sidebar-toggle');
 
     sidebarToggle.addEventListener('click', () => {
+        gtag('event', 'sidebar_toggle');
         sidebar.classList.toggle('open');
         sidebarToggle.classList.toggle('open');
     });
