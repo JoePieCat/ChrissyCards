@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrissy Cards - Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/collection.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Source+Sans+3:wght@400;600&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <main class="collection-container">
+        <button id="sidebar-toggle" class="sidebar-toggle">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <nav id="sidebar" class="sidebar">
+            <div id="sidebar-content" class="sidebar-content">
+                <!-- Dynamic headers will be injected here -->
+            </div>
+        </nav>
+
+        <header class="collection-header">
+            <a href="index.html" class="btn btn-secondary home-btn">Home</a>
+            <h1><span id="collection-name">My Chrissy Cards Collection</h1>
+            <div class="header-actions">
+                <button id="extras-btn" class="btn btn-green tooltip-bottom"
+                    data-tooltip="Show collection statistics.">Extras</button>
+                <button id="save-collection-btn" class="btn btn-primary tooltip-bottom"
+                    data-tooltip="Save your card quantities locally.">Save</button>
+                <button id="download-collection-btn" class="btn btn-secondary tooltip-bottom tooltip-right-edge"
+                    data-tooltip="Download a .json file with your card quantities.">Download</button>
+            </div>
+            <div class="progress-container" id="main-progress-container">
+                <div class="progress-bar">
+                    <div class="progress-segments-container"></div>
+                    <p class="progress-text">0 / 77</p>
+                </div>
+            </div>
+            <div id="rarity-progress-container" class="rarity-progress-container"></div>
+        </header>
+
+        <section class="all-filters-container">
+            <section class="grouping-controls">
+                <button id="reset-filters-btn" class="btn" disabled>Reset All Filters</button>
+                <div class="group-by-container">
+                    <span class="group-by-label">Show:</span>
+                    <div class="toggle-switch">
+                        <span class="switch-option active" data-group="rarity">Rarity</span>
+                        <span class="switch-option" data-group="sets"
+                            data-tooltip="Sets are Rarity-independent mini-collections, made up by me based on card theme.">Sets</span>
+                    </div>
+                    <input type="hidden" id="group-by-mode" value="rarity">
+                </div>
+                <div class="sort-by-container">
+                    <label for="sort-by-select">Sort by:</label>
+                    <select id="sort-by-select">
+                        <option value="default">Default</option>
+                        <option value="alphabetical">Alphabetical</option>
+                        <option value="count">Count</option>
+                    </select>
+                </div>
+                <button id="sets-filter-btn" class="btn btn-secondary" disabled>Sets Filter</button>
+                <div class="filter-option">
+                    <input type="checkbox" id="split-by-rarity-check" disabled>
+                    <label for="split-by-rarity-check">Split By Rarity</label>
+                </div>
+            </section>
+
+            <div class="full-separator"></div>
+
+            <section class="filter-controls">
+                <div class="search-group">
+                    <div class="search-bar-container">
+                        <input type="text" id="search-bar" placeholder="Search for a card...">
+                        <button id="clear-search-btn" class="clear-search-btn" style="display: none;">&times;</button>
+                    </div>
+                    <div class="search-options">
+                        <div class="filter-option">
+                            <input type="checkbox" id="search-by-title" checked>
+                            <label for="search-by-title">Title</label>
+                        </div>
+                        <div class="filter-option">
+                            <input type="checkbox" id="search-by-text">
+                            <label for="search-by-text">Text</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="separator"></div>
+
+                <div class="checkbox-filters">
+                    <div class="tiny-mode-container"
+                        data-tooltip="Hide/show quantity subtraction and addition & card images.">
+                        <div class="filter-option">
+                            <input type="checkbox" id="tiny-mode-check">
+                            <label for="tiny-mode-check">Tiny Mode</label>
+                        </div>
+                    </div>
+
+                    <div class="separator"></div>
+
+                    <div class="filter-option" data-tooltip="Show only cards with quantity 1 or higher.">
+                        <input type="checkbox" id="show-held-check">
+                        <label for="show-held-check">Show Only Held</label>
+                    </div>
+                    <div class="filter-option" data-tooltip="Show only cards with quantity 2 or higher. Note: This subtracts 1 from each card's displayed quantity.">
+                        <input type="checkbox" id="show-dupes-check">
+                        <label for="show-dupes-check">Show Only Dupes</label>
+                    </div>
+                    <div class="filter-option" data-tooltip="Show only cards with quantity 0.">
+                        <input type="checkbox" id="show-missing-check">
+                        <label for="show-missing-check">Show Only Missing</label>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="card-grid" class="card-grid">
+            <!-- Card placeholders will be inserted here by JavaScript -->
+        </section>
+    </main>
+
+    <script src="js/collection.js"></script>
+</body>
+
+</html>

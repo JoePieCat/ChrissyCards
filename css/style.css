@@ -1,0 +1,236 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Body Styling */
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    background-color: #121212; /* Very dark grey background */
+    color: #e0e0e0; /* Light grey text for readability */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+/* Main content container */
+.home-container {
+    background-color: #1e1e1e; /* Slightly lighter card background */
+    padding: 3rem 4rem;
+    border-radius: 1rem;
+    border: 1px solid #2d2d2d;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Header and Title */
+header {
+    margin-bottom: 2.5rem;
+}
+
+h1 {
+    font-family: 'Bangers', cursive;
+    font-size: 4.5rem;
+    color: #00aaff; /* A vibrant, electric blue */
+    letter-spacing: 2px;
+    text-shadow: 0 0 10px rgba(0, 170, 255, 0.3);
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #888888; /* A muted grey for less emphasis */
+    font-weight: 400;
+}
+
+/* Action Buttons Section */
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Creates space between the buttons */
+}
+
+/* General Button Styling */
+.btn {
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 170, 255, 0.4);
+}
+
+/* Specific Button Colors */
+.btn-primary {
+    background-image: linear-gradient(45deg, #00aaff, #0088cc);
+    color: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 170, 255, 0.2);
+}
+
+.btn-primary:hover {
+    background-image: linear-gradient(45deg, #0088cc, #00aaff);
+    box-shadow: 0 6px 20px rgba(0, 170, 255, 0.3);
+}
+
+.btn-secondary {
+    background-color: #333333;
+    color: #e0e0e0;
+    border: 1px solid #444444;
+}
+
+.btn-secondary:hover {
+    background-color: #444444;
+    border-color: #555555;
+}
+
+.btn-tertiary {
+    background-color: transparent;
+    color: #00aaff;
+    border: 2px solid #00aaff;
+}
+
+.btn-tertiary:hover {
+    background-color: #00aaff;
+    color: #ffffff;
+}
+
+/* Pop-up Styling */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup {
+    display: flex; /* Using flex to center the content */
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Fixed position to overlay the whole screen */
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+}
+
+.popup-content {
+    background-color: #2a2a2a;
+    padding: 2.5rem 3rem;
+    border: 1px solid #444;
+    border-radius: 0.75rem;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    text-align: center;
+    position: relative;
+    animation: fadeIn 0.3s ease-out;
+}
+
+.popup-content p {
+    font-size: 1.2rem;
+    color: #e0e0e0;
+}
+
+.close-btn {
+    color: #888;
+    position: absolute;
+    top: 1rem;
+    right: 1.25rem;
+    font-size: 1.75rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* A simple fade-in animation for the pop-up */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Generic Tooltip Styling */
+[data-tooltip] {
+    position: relative;
+    cursor: pointer;
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    border: 1px solid #444;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease-in-out, visibility 0.2s ease-in-out;
+    z-index: 20;
+    pointer-events: none; /* Prevents the tooltip from interfering with hover events on other elements */
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modifier for tooltips that should appear below the element */
+[data-tooltip].tooltip-bottom::after {
+    bottom: auto; /* Unset the default bottom positioning */
+    top: 115%; /* Position it below the element */
+}
+
+/* Modifier for tooltips on elements at the right edge of the screen */
+[data-tooltip].tooltip-right-edge::after {
+    left: auto; /* Unset the default left positioning */
+    right: 0; /* Align to the right edge of the parent */
+    transform: translateX(0); /* Override the centering transform */
+}

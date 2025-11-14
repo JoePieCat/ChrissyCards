@@ -1,0 +1,618 @@
+[
+    {
+        "title": "VII EP",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's Debut EP, coined \"VII\" for the 7 tracks on the EP, 7 Minutes In Hell and for 7 deadly sins.",
+        "rarity": "Common",
+        "sets": ["VII EP", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "But, What If I Fly?",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The First Track off VII, heavily inspired by the tale of Icarus, exploring the idea of the fear of the fall versus the dream of the flight.",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "7 Minutes in Hell",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Second Track off VII featuring VOILA 7 Minutes in Hell was the first single released for Chrissy's solo project, contemplating the line between Heaven & Hell.",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "Single", "VII", "7 Minutes in Hell"],
+        "quantity": 0
+    },
+    {
+        "title": "Pick Your Poison",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Third Track off VII, one of the most fun to perform live, Pick Your Poison explores a doomed relationship, challenging one's partner to pick how you're going to go out in flames.",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "VII", "Pick Your Poison"],
+        "quantity": 0
+    },
+    {
+        "title": "If Looks Could Kill",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Fourth Track off VII, but second single, this was the first song from the solo era that was just Chrissy alone. This track is about an all consuming love.",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "Single", "VII", "If Looks Could Kill"],
+        "quantity": 0
+    },
+    {
+        "title": "You'd Be Right",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Fifth Track off VII, this track is way outside of anything Chrissy has done before but is already a favorite to play live. A little spicier, a step into a dark pop sound.",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "VII", "You'd Be Right"],
+        "quantity": 0
+    },
+    {
+        "title": "Some Like It Hot",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Sixth Track off VII, High energy, lighthearted and fun, Some Like it Hot is purely about finding someone attractive and being too shy to say it!",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "I Tried to Act Your Age",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Seventh and final Track off VII, a rare ballad in Chrissy's discography, exploring the regret of trying to grow up too fast.",
+        "rarity": "Common",
+        "sets": ["VII EP", "Song", "Single", "VII", "Act Your Age"],
+        "quantity": 0
+    },
+    {
+        "title": "Spin The Bottle Tour",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The Spin the Bottle Tour, is a coheadline tour between Chrissy and VOILA! Gus & Luke of VOILA co-wrote and produced VII alongside Chrissy, and they have had a blast playing the songs live.",
+        "rarity": "Common",
+        "sets": ["VOILA", "Collab", "Performance", "Spin the Bottle"],
+        "quantity": 0
+    },
+    {
+        "title": "Caught It - Performance",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy, Luke and Gus had a blast shooting the performance shots for the Caught It music video. It gave a little sneak peak of what the energy for the Spin the Bottle Tour live show would be like!",
+        "rarity": "Common",
+        "sets": ["VOILA", "Music Video", "Performance", "Caught It"],
+        "quantity": 0
+    },
+    {
+        "title": "Caught It - Mechanic",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Caught It was shot in an old mechanic shop set. It only felt right for Chrissy to bust out her leather jacket and give us the mechanic fantasy.",
+        "rarity": "Common",
+        "sets": ["Chrissy", "Caught It"],
+        "quantity": 0
+    },
+    {
+        "title": "Upset Magazine Cover",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy graced the cover of Upset Magazine on October 9th. The photographer, Jordan Knight, collabs with Chrissy often and has been a part of the journey for many years",
+        "rarity": "Common",
+        "sets": ["Magazine"],
+        "quantity": 0
+    },
+    {
+        "title": "G.URL Magazine Cover",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy was the cover star for G.url Magazine in September. The fabulous photographer, @coughs, took all the pics for the magazine.",
+        "rarity": "Common",
+        "sets": ["Magazine"],
+        "quantity": 0
+    },
+    {
+        "title": "Chrissy - \"If Looks Could Kill\"",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "This photo is from the set of the If Looks Could Kill video, where Chrissy fulfilled her fairytale horseback dreams.",
+        "rarity": "Common",
+        "sets": ["Music Video", "Animal", "Horse", "Chrissy", "VII", "If Looks Could Kill"],
+        "quantity": 0
+    },
+    {
+        "title": "Cowgirl Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The era that was always destined to be, Chrissy began riding horses when she was a little girl. At the beginning of 2024, she dove full into being a horse girl and bought her first horse, Leo that April!",
+        "rarity": "Common",
+        "sets": ["Animal", "Horse", "Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Starlight Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "An organization close to Chrissy's heart, Starlight Children's Foundation aims to bring happiness and smiles to kids who live in the hospital undergoing treatment for extended periods of time. With the help of YOU, Chrissy raised over $56,000 USD to donate to Starlight as a part of Twitch Rivals.",
+        "rarity": "Common",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Host Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Another one of her many sidequests, catch Chrissy hosting events like Arcane red carpet premieres, Valorant Champions tour and more!",
+        "rarity": "Common",
+        "sets": ["Chrissy", "Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "DJ Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "DJing her first Emo Nite set, Chrissy realized how much fun she had getting to bounce around playing other people's songs. Maybe there's a secret DJ side project in the future?",
+        "rarity": "Common",
+        "sets": ["Chrissy", "Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "T1 Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Since meeting Faker and the rest of the SKT at Worlds in 2017, Chrissy has been a diehard T1 fan. Her favorite player of all time is Keria and she probably has more T1 jerseys than any other fan.",
+        "rarity": "Common",
+        "sets": ["Chrissy", "League of Legends"],
+        "quantity": 0
+    },
+    {
+        "title": "Merch Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Modeling her debut solo merch line for the VII EP! Chrissy wanted each piece to feel like something she would wear, which is why it's mostly black & red, her favorite colors!",
+        "rarity": "Common",
+        "sets": ["Chrissy", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "Sports Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Unfortunately for her, Chrissy is a lifelong New York Giants fan. And though it has been a TOUGH decade (or more, but who's counting!) she has faith and continues to bleed big blue!",
+        "rarity": "Common",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Chef Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Baking and cooking are the key to Chrissy's heart and she loves to do it with friends or on stream! Her favorite things to make are either Italian dishes or things that feel straight out of a fantasy world.",
+        "rarity": "Common",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Blonde Hair Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Blondes have more fun! Blonde hair Chrissy says so.",
+        "rarity": "Common",
+        "sets": ["Chrissy", "Hair"],
+        "quantity": 0
+    },
+    {
+        "title": "Rocksound Cover Mag",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Rocksound has been a long time supporter of Chrissy and ATC andshe was over the moon getting to create this special edition \"Chrissy\" mag with them. Shot by Jordan Knight.",
+        "rarity": "Uncommon",
+        "sets": ["Magazine"],
+        "quantity": 0
+    },
+    {
+        "title": "Bad Idea - Lil Lotus",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "In this feature, Chrissy got to venture outside of her usual sound, as well as shoot an incredibly fun heist style music video with Lil Lotus. The cigarette is real and she did in fact have a coughing fit. Real tough, real cool.",
+        "rarity": "Uncommon",
+        "sets": ["Song", "Collab", "Single"],
+        "quantity": 0
+    },
+    {
+        "title": "Barely Breathing",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Featuring on Fram Ashes to New's powerful rock track, Chrissy got to land her vocals (and abs) to a new version of the song.",
+        "rarity": "Uncommon",
+        "sets": ["Song", "Collab", "Single"],
+        "quantity": 0
+    },
+    {
+        "title": "A Whole New World",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The only thing that makes one of Chrissy's favorite Disney songs even more beloved was getting to cover it for Disney's \"A Whole New Sound\" record with her friends in Yellowcard!",
+        "rarity": "Uncommon",
+        "sets": ["Collab"],
+        "quantity": 0
+    },
+    {
+        "title": "Legends Never Die",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The song that changed Chrissy's life, getting to craft the 2017 Worlds anthem for her favorite game, League of Legends, was a dream come true.",
+        "rarity": "Uncommon",
+        "sets": ["Song", "League of Legends", "Single", "Legends Never Die"],
+        "quantity": 0
+    },
+    {
+        "title": "You'd Be Right",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "What's better than one Chrissy? Three! And together they make up one full sized person.",
+        "rarity": "Uncommon",
+        "sets": ["Music Video", "VII", "You'd Be Right"],
+        "quantity": 0
+    },
+    {
+        "title": "Perfect Crime",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Not originally on VII, Chrissy played Perfect Crime on the Spin the Bottle US tour and was the last song written during the VII writing sessions.",
+        "rarity": "Uncommon",
+        "sets": ["Song", "Single", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "Pick Your Poison mv",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The hand at the beginning and end of the visualizer belong to Luke Eisner! He helped out on set that day, and made a small cameo.",
+        "rarity": "Uncommon",
+        "sets": ["Music Video", "VII", "Pick Your Poison"],
+        "quantity": 0
+    },
+    {
+        "title": "Phoenix Bilibili Performance",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "To celebrate New Years Eve 2019, Chrissy performed \"Phoenix\" as a part of Bilibili's celebration broadcast. Complete with a surprise pyro, and floating stage.",
+        "rarity": "Uncommon",
+        "sets": ["Performance", "Phoenix"],
+        "quantity": 0
+    },
+    {
+        "title": "Light Blue Subaru",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The most memorable image from \"I Tried to Act Your Age\"",
+        "rarity": "Uncommon",
+        "sets": ["Lyric", "VII", "Act Your Age"],
+        "quantity": 0
+    },
+    {
+        "title": "Duke In \"If Looks Could Kill\"",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "A very handsome and noble steed! Duke (or Sir Dukers) belongs to Chrissy's trainer, best friend and personal wrangler, Ella! Chrissy learned to ride on Duke before she got her own horse, Leo. Leo & Duke are best buddies.",
+        "rarity": "Uncommon",
+        "sets": ["Music Video", "Animal", "Horse", "Chrissy", "VII", "If Looks Could Kill"],
+        "quantity": 0
+    },
+    {
+        "title": "Chrissy in Japan",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Forever one of Chrissy's favorite places in the world, she frequently travels to Japan and is currently studying Japanese! This photo is just around the corner from her favorite izakaya in Tokyo.",
+        "rarity": "Uncommon",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Arcane Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Diving into one of her favorite worlds, Chrissy hosted the red carpet for the Arcana Season 1 Premiere as well as the \"Undercity Nights\" broadcast where this photo was taken.",
+        "rarity": "Uncommon",
+        "sets": ["Chrissy", "Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "Nerd Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "We can let this photo speak for itself. No comment needed.",
+        "rarity": "Uncommon",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "D&D Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Captain Nyxara Nightsbred at your service! Chrissy has been building an original campaign on Dungeons & Dragons 5e called \"Starfall\" and streamed 6 sessions early 2024!",
+        "rarity": "Uncommon",
+        "sets": ["Chrissy", "Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "STB Tour Sold Out!",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's first solo tour, a coheadline with her friends VOILA fully sold out!",
+        "rarity": "Rare",
+        "sets": ["VOILA", "Statistic", "Spin the Bottle"],
+        "quantity": 0
+    },
+    {
+        "title": "The Legend of Hidden Temple",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Jumping on an open casting call for The Legends of the Hidden Temple reboot, Chrissy and her friend Sigils made the casting director laugh so hard to the point of tears only to be eliminated on the steps of knowledge. Red Jaguars for life!",
+        "rarity": "Rare",
+        "sets": ["Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "House of Solo Magazine",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "First time appearing on a cover",
+        "rarity": "Rare",
+        "sets": ["Magazine"],
+        "quantity": 0
+    },
+    {
+        "title": "Hero Too",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's first feature in an anime as the singing voice of Kyoka Jiro.",
+        "rarity": "Rare",
+        "sets": ["Song", "Collab"],
+        "quantity": 0
+    },
+    {
+        "title": "Phoenix",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's second anthem for League of Legends Worlds 2019.",
+        "rarity": "Rare",
+        "sets": ["Song", "League of Legends", "Single", "Collab", "Phoenix"],
+        "quantity": 0
+    },
+    {
+        "title": "\"What If Sin Could Save Me\"",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "An unreleased demo from the vault written during sessions for the VII EP.",
+        "rarity": "Rare",
+        "sets": ["Song", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "Phoenix Worlds 2019 Performance",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 45",
+        "rarity": "Rare",
+        "sets": ["Performance", "League of Legends", "Phoenix"],
+        "quantity": 0
+    },
+    {
+        "title": "\"I Tried To Act Your Age\" mv",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The set of \"I Tried to Act Your Age\" was shot at a haunted, Victorian style house outside of LA.",
+        "rarity": "Rare",
+        "sets": ["Music Video", "VII", "Act Your Age"],
+        "quantity": 0
+    },
+    {
+        "title": "7MIH - Angel Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Angel version of Chrissy from the \"7 Minutes in Hell\" Music Video came to life with magnetic wings. The wings ended up having to be glued and taped onto Chrissy's back.",
+        "rarity": "Rare",
+        "sets": ["Chrissy", "Music Video", "VII", "7 Minutes in Hell"],
+        "quantity": 0
+    },
+    {
+        "title": "Infinity Logo (Tattoo)",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's first tattoo she got in 2014 along with Dan & Will in honor of ATC's debut EP, Infinity.",
+        "rarity": "Rare",
+        "sets": ["Tattoo"],
+        "quantity": 0
+    },
+    {
+        "title": "Venn Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "During the pandemic, Chrissy explored some new ventures, hosting a show called \"Guest House\" for gaming network Venn.",
+        "rarity": "Rare",
+        "sets": ["Chrissy", "Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "Cannoli Queen Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "You don't rock a name like Christina Nicola Costanza without being a full blooded Italian Stallion. True to form, Chrissy LOVES Cannoli.",
+        "rarity": "Rare",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Luke",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Luke Skywhisker, the middle cat of the Star Paws cats, he is the sweetest and shyest of the boys despite being the most wild as an F2 Savannah!",
+        "rarity": "Rare",
+        "sets": ["Animal", "Cat"],
+        "quantity": 0
+    },
+    {
+        "title": "Lando",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Lando Catrissian. The oldest of the three Star Paws cats, Lando is not your typical bengal and is by far the most cunning and loving. He has cheated death far more than his share of 9 lives!",
+        "rarity": "Rare",
+        "sets": ["Animal", "Cat"],
+        "quantity": 0
+    },
+    {
+        "title": "7 Minutes in Hell - Devil Luke",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Luke Eisner of VOILA on the set of 7 Minutes in Hell Music video. Though an angel in reality, he played the role of the devil so well!",
+        "rarity": "Epic",
+        "sets": ["VOILA", "Music Video", "VII",  "7 Minutes in Hell"],
+        "quantity": 0
+    },
+    {
+        "title": "Dove In A Crossfire",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "One of the symbols from \"I Tried to Act Your Age,\" representing how innocence can be a casualty of trying to grow up too quickly.",
+        "rarity": "Epic",
+        "sets": ["Lyric", "VII", "Act Your Age"],
+        "quantity": 0
+    },
+    {
+        "title": "The Knives In My Back Look Like Wings",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 55",
+        "rarity": "Epic",
+        "sets": ["Lyric", "VII"],
+        "quantity": 0
+    },
+    {
+        "title": "Legends Never Die 2017 Performance",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "An absolute dream come true, getting to perform at Worlds for Chrissy's favorite game, League of legends in the Olympic Stadium in Beijing!",
+        "rarity": "Epic",
+        "sets": ["Performance", "League of Legends", "Legends Never Die"],
+        "quantity": 0
+    },
+    {
+        "title": "Backbend Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The iconic backbreaking move that Chrissy became known for way back in early 2014.",
+        "rarity": "Epic",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Red Hair Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's second favorite hair color, and probably the one that best matches her personality.",
+        "rarity": "Epic",
+        "sets": ["Chrissy", "Hair"],
+        "quantity": 0
+    },
+    {
+        "title": "Gamer Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Aside from music, gaming was Chrissy's other first love. She started PC gaming at just 3 years old!",
+        "rarity": "Epic",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Leo",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 60",
+        "rarity": "Epic",
+        "sets": ["Animal", "Horse"],
+        "quantity": 0
+    },
+    {
+        "title": "Obi",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Obi-Wan Catnobi, the baby of Chrissy's three cats and by far the most chaotic! A Silver bengal, he is a true bengal through and through. He communicates through breaking everything in sight but doesn't have a mean bone in his body!",
+        "rarity": "Epic",
+        "sets": ["Animal", "Cat", "Obi"],
+        "quantity": 0
+    },
+    {
+        "title": "Cat Mom Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Somehow going from claiming she didn't like cats in 2020 to being the proud mom of 3 in 2021, Chrissy has evolved into full cat mom form.",
+        "rarity": "Epic",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Burned On 7MIH Set",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 63",
+        "rarity": "Chaotic",
+        "sets": ["Music Video", "VII", "7 Minutes in Hell"],
+        "quantity": 0
+    },
+    {
+        "title": "Falling Off Horse",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 64",
+        "rarity": "Chaotic",
+        "sets": ["Music Video", "Animal", "Horse"],
+        "quantity": 0
+    },
+    {
+        "title": "Scene Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "It thankfully WAS a phase, mom. Well...at least the hair style part.",
+        "rarity": "Chaotic",
+        "sets": ["Chrissy", "Hair"],
+        "quantity": 0
+    },
+    {
+        "title": "Crew Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 66",
+        "rarity": "Chaotic",
+        "sets": ["Chrissy", "Sidequest"],
+        "quantity": 0
+    },
+    {
+        "title": "Raccoon Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "The true king of chaotic animals, Chrissy finally met a raccoon. Dreams really do come true!",
+        "rarity": "Chaotic",
+        "sets": ["Chrissy", "Animal"],
+        "quantity": 0
+    },
+    {
+        "title": "Biceps Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Look out world, biceps coming in HOT.",
+        "rarity": "Chaotic",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Chaotic Obi",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 69",
+        "rarity": "Chaotic",
+        "sets": ["Animal", "Cat", "Obi"],
+        "quantity": 0
+    },
+    {
+        "title": "Legends Never Die Gold Record",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Chrissy's first RIAA certified Gold Record for Legends Never Die. Selling over 500,000 copies and certified on February 22, 2022.",
+        "rarity": "Legendary",
+        "sets": ["Statistic", "League of Legends", "Legends Never Die"],
+        "quantity": 0
+    },
+    {
+        "title": "Baby Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Tiny rockstar Chrissy! Where it all seemingly began!",
+        "rarity": "Legendary",
+        "sets": ["Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Beauty And A Beat Chrissy MV",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 72",
+        "rarity": "Legendary",
+        "sets": ["Music Video", "Collab", "Chrissy"],
+        "quantity": 0
+    },
+    {
+        "title": "Dagger Tattoo",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 73",
+        "rarity": "Legendary",
+        "sets": ["Tattoo"],
+        "quantity": 0
+    },
+    {
+        "title": "Pink Hair Chrissy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 74",
+        "rarity": "Legendary",
+        "sets": ["Chrissy", "Hair"],
+        "quantity": 0
+    },
+    {
+        "title": "Fluffy",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "Fluffy Costanza. Chrissy's beloved bunny that she got when she was just 8 years old!",
+        "rarity": "Legendary",
+        "sets": ["Chrissy", "Animal"],
+        "quantity": 0
+    },
+    {
+        "title": "Sammi",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 76",
+        "rarity": "Legendary",
+        "sets": ["Animal"],
+        "quantity": 0
+    },
+    {
+        "title": "ETERNAL",
+        "image": "images/card-images/placeholder.jpeg",
+        "text": "text 77",
+        "rarity": "Eternal",
+        "sets": [],
+        "quantity": 0
+    }
+]

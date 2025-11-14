@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrissy Cards - Collection Tracker</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="home-container">
+        <header>
+            <h1>Chrissy Cards</h1>
+            <p class="subtitle">Your Local Collection Tracker</p>
+        </header>
+
+        <section class="action-buttons">
+            <button id="load-collection-btn" class="btn btn-primary">Load Saved Collection</button>
+            <button id="upload-collection-btn" class="btn btn-secondary">Upload Collection File</button>
+            <button id="new-collection-btn" class="btn btn-tertiary">Start New Collection</button>
+        </section>
+        
+        <!-- Hidden file input for uploading a collection JSON file -->
+        <input type="file" id="file-uploader" accept=".json" style="display: none;">
+    </main>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
