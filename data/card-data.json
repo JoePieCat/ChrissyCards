@@ -240,8 +240,8 @@
         "quantity": 0
     },
     {
-        "title": "Pick Your Poison mv",
-        "image": "images/card-images/Uncommon _ Pick Your Poison mv.png",
+        "title": "Pick Your Poison MV",
+        "image": "images/card-images/Uncommon _ Pick Your Poison MV.png",
         "text": "The hand at the beginning and end of the visualizer belong to Luke Eisner! He helped out on set that day, and made a small cameo.",
         "rarity": "Uncommon",
         "sets": ["Music Video", "VII", "Pick Your Poison"],
@@ -304,8 +304,8 @@
         "quantity": 0
     },
     {
-        "title": "STB Tour Sold Out!",
-        "image": "images/card-images/Rare _ STB Tour Sold Out!.png",
+        "title": "STB Tour SOLD OUT!",
+        "image": "images/card-images/Rare _ STB Tour SOLD OUT!.png",
         "text": "Chrissy's first solo tour, a coheadline with her friends VOILA fully sold out!",
         "rarity": "Rare",
         "sets": ["VOILA", "Statistic", "Spin the Bottle"],
@@ -360,8 +360,8 @@
         "quantity": 0
     },
     {
-        "title": "\"I Tried To Act Your Age\" mv",
-        "image": "images/card-images/Rare _ I Tried To Act Your Age mv.png",
+        "title": "\"I Tried To Act Your Age\" MV",
+        "image": "images/card-images/Rare _ I Tried To Act Your Age MV.png",
         "text": "The set of \"I Tried to Act Your Age\" was shot at a haunted, Victorian style house outside of LA.",
         "rarity": "Rare",
         "sets": ["Music Video", "VII", "Act Your Age"],
@@ -432,8 +432,8 @@
         "quantity": 0
     },
     {
-        "title": "The Knives In My Back Look Like Wings",
-        "image": "images/card-images/Epic _ The Knives In My Back Look Like Wings.png",
+        "title": "\"the knives in my back look like wings\"",
+        "image": "images/card-images/Epic _ the knives in my back look like wings.png",
         "text": "The lyric that inspired the main theme of VII. From the Song \"But, What If I Fly?\"",
         "rarity": "Epic",
         "sets": ["Lyric", "VII"],
