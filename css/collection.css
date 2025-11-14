@@ -216,7 +216,7 @@ body {
 }
 
 .card-grid .rarity-header:not(:first-child) { margin-top: 6rem; }
-.card-grid:not(.tiny-mode) .rarity-header:not(:first-child) { margin-top: 12rem; }
+.card-grid:not(.tiny-mode) .rarity-header:not(:first-child) { margin-top: 6rem; }
 
 .rarity-header {
     font-family: 'Bangers', cursive;
