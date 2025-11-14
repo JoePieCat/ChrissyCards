@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-H7W3LVZH9Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-H7W3LVZH9Y');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chrissy Cards - Collection</title>
@@ -112,7 +121,8 @@
                         <input type="checkbox" id="show-held-check">
                         <label for="show-held-check">Show Only Held</label>
                     </div>
-                    <div class="filter-option" data-tooltip="Show only cards with quantity 2 or higher. Note: This subtracts 1 from each card's displayed quantity.">
+                    <div class="filter-option"
+                        data-tooltip="Show only cards with quantity 2 or higher. Note: This subtracts 1 from each card's displayed quantity.">
                         <input type="checkbox" id="show-dupes-check">
                         <label for="show-dupes-check">Show Only Dupes</label>
                     </div>
