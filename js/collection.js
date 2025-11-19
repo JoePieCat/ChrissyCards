@@ -517,13 +517,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const showExtrasPopup = () => {
         gtag('event', 'extras_button_click');
-        // Last sampled on November 13th 2025 - 3pm
-        const TOTAL = 1106; // Total cards sampled
+        // Last sampled on November 19th 2025 - 8pm
+        const TOTAL = 1148; // Total cards sampled (= 164 packs)
         const rarityPercentages = {
-            "Common": 764 / TOTAL * 100,
-            "Uncommon": 168 / TOTAL * 100,
-            "Rare": 121 / TOTAL * 100,
-            "Epic": 30 / TOTAL * 100,
+            "Common": 788 / TOTAL * 100,
+            "Uncommon": 178 / TOTAL * 100,
+            "Rare": 127 / TOTAL * 100,
+            "Epic": 32 / TOTAL * 100,
             "Chaotic": 9 / TOTAL * 100,
             "Legendary": 13 / TOTAL * 100,
             "Eternal": 1 / TOTAL * 100,
