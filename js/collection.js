@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gtag('event', 'extras_button_click');
         // Last sampled on 2025-11-25 4PM
         const TOTAL = 1358; // Total cards sampled (= 194 packs)
-        const rarityProbabilities = {
+        const rarityPercentages = {
             'Common': 916 / 1358,
             'Uncommon': 220 / 1358,
             'Rare': 156 / 1358,
