@@ -310,9 +310,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 cardGrid.appendChild(groupHeader);
 
                 if (splitByRarity && mode === 'sets') {
-                const subLinksContainer = document.createElement('div');
-                subLinksContainer.classList.add('sub-links-container');
-                linkContainer.appendChild(subLinksContainer);
+                    const subLinksContainer = document.createElement('div');
+                    subLinksContainer.classList.add('sub-links-container');
+                    linkContainer.appendChild(subLinksContainer);
 
                     rarityOrder.forEach(rarity => {
                         if (groupData[rarity] && groupData[rarity].length > 0) {
@@ -517,16 +517,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const showExtrasPopup = () => {
         gtag('event', 'extras_button_click');
-        // Last sampled on November 19th 2025 - 8pm
-        const TOTAL = 1148; // Total cards sampled (= 164 packs)
-        const rarityPercentages = {
-            "Common": 788 / TOTAL * 100,
-            "Uncommon": 178 / TOTAL * 100,
-            "Rare": 127 / TOTAL * 100,
-            "Epic": 32 / TOTAL * 100,
-            "Chaotic": 9 / TOTAL * 100,
-            "Legendary": 13 / TOTAL * 100,
-            "Eternal": 1 / TOTAL * 100,
+        // Last sampled on 2025-11-25 4PM
+        const TOTAL = 1358; // Total cards sampled (= 194 packs)
+        const rarityProbabilities = {
+            'Common': 916 / 1358,
+            'Uncommon': 220 / 1358,
+            'Rare': 156 / 1358,
+            'Epic': 40 / 1358,
+            'Chaotic': 11 / 1358,
+            'Legendary': 13 / 1358,
+            'Eternal': 2 / 1358
         };
 
         const rarityCounts = rarityOrder.reduce((acc, rarity) => {
@@ -583,7 +583,7 @@ document.addEventListener('DOMContentLoaded', () => {
         statsGridContent += '</div>';
 
         const packsNeeded = (totalCount / 7).toFixed(2);
-        statsView.innerHTML = `<p class="stats-subtitle">Analysis of your collection based on presumed rarity (based on ${TOTAL} cards (${TOTAL/7} packs) from Chrissy Discord). Includes all duplicates.</p>` +
+        statsView.innerHTML = `<p class="stats-subtitle">Analysis of your collection based on presumed rarity (based on ${TOTAL} cards (${TOTAL / 7} packs) from Chrissy Discord). Includes all duplicates.</p>` +
             statsGridContent + `
             <div class="stats-total">
                 <span>Total Cards</span> <span class="stat-value">${totalCount}</span>
@@ -944,10 +944,10 @@ document.addEventListener('DOMContentLoaded', () => {
                                 mode: 'index',
                                 intersect: false,
                                 callbacks: {
-                                    title: function(tooltipItems) {
+                                    title: function (tooltipItems) {
                                         return `~${tooltipItems[0].parsed.x.toFixed(2)} Cards`;
                                     },
-                                    label: function(context) {
+                                    label: function (context) {
                                         let label = context.dataset.label || '';
                                         if (label) {
                                             label += ': ';
@@ -1134,7 +1134,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gtag('event', 'download_button_click');
         const quantities = cardData.map(c => c.quantity);
         const dataStr = JSON.stringify(quantities, null, 2);
-        const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
+        const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
         const downloadLink = document.createElement('a');
         downloadLink.setAttribute('href', dataUri);
         downloadLink.setAttribute('download', 'card-quantities.json');
